@@ -15,7 +15,7 @@ public class Produto {
     int codigo;
     String descricao;
     char setor;
-    double preco,desconto;
+    double preco;
     boolean disponivel;
     
     public void ExibirProduto(){
@@ -48,8 +48,9 @@ public class Produto {
     
     public void CalcularDesconto(){
         
-        desconto = preco - (preco * 0.1);
-        System.out.println("Valor final com o desconto de 10%: R$ " + desconto);
+        preco =(preco - (preco *0.1));
+       
     }
 }
 
+    

@@ -26,13 +26,21 @@ public class TesteProduto {
        
        
        // Imprimir os dados do Produto
-
+       
+       System.out.println("\n\t\t ----- Produto ------\n");
        produto.ExibirProduto();
        
-       // Exibir o desconto do Produto
+        
+       // Calcular o desconto do Produto
        
        produto.CalcularDesconto();
+       
+       // Imprimir o Produto com desconto 
+
+        System.out.println("\n\t\t -----Produto com desconto ------\n");
+       produto.ExibirProduto();
            
+      
                
     }
       
