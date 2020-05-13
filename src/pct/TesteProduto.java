@@ -27,7 +27,7 @@ public class TesteProduto {
        
        // Imprimir os dados do Produto
        
-       System.out.println("\n\t\t ----- Produto ------\n");
+       System.out.println("\n\t\t ------ Produto ------\n");
        produto.ExibirProduto();
        
         
@@ -37,7 +37,7 @@ public class TesteProduto {
        
        // Imprimir o Produto com desconto 
 
-        System.out.println("\n\t\t -----Produto com desconto ------\n");
+        System.out.println("\n\t\t ------Produto com desconto ------\n");
        produto.ExibirProduto();
            
       

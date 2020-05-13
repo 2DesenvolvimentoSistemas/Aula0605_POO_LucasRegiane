@@ -48,7 +48,7 @@ public class Produto {
     
     public void CalcularDesconto(){
         
-        preco =(preco - (preco *0.1));
+        preco = (preco - (preco *0.1));
        
     }
 }
