@@ -18,7 +18,7 @@ public class Produto {
     double preco;
     boolean disponivel;
     
-    public void ExibirProduto(){
+    public void exibirProduto(){
         
         if(setor =='P'){
             
@@ -46,7 +46,7 @@ public class Produto {
             
     }
     
-    public void CalcularDesconto(){
+    public void calcularDesconto(){
         
         preco = (preco - (preco *0.1));
        

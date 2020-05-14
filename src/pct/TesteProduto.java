@@ -28,17 +28,17 @@ public class TesteProduto {
        // Imprimir os dados do Produto
        
        System.out.println("\n\t\t ------ Produto ------\n");
-       produto.ExibirProduto();
+       produto.exibirProduto();
        
         
        // Calcular o desconto do Produto
        
-       produto.CalcularDesconto();
+       produto.calcularDesconto();
        
        // Imprimir o Produto com desconto 
 
         System.out.println("\n\t\t ------Produto com desconto ------\n");
-       produto.ExibirProduto();
+       produto.exibirProduto();
            
       
                
